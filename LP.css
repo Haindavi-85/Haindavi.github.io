@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: linear-gradient(45deg, rgb(2, 133, 133), orange  );
+    font-size: 20px;
+}
+.row{
+    background: rgb(209, 109, 14);
+    line-height: 70px;
+}
+.row .logo{
+    font-size: 35px;
+    font-family: cursive;
+    color: bisque;
+    float: left;
+    text-align: center;
+}
+
+.row .search input{
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    float: right;
+}
+
+.row .search img {
+    position: relative;
+    height: 25px;
+    right: 45px;
+    top: 12px;
+    float: right;
+}
+.main{
+    width: 80%;
+    margin: 5px auto;
+}
+.main .para1 .para2 {
+    background: red;
+    color: #fff;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    margin: 5px 0px;
+    width: 46%;
+    float: left;
+}

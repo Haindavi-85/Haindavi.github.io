@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    <meta charset="UTF-8" >
+    <link rel="stylesheet" href="style.css" type="text/css" >
+</head>
+<body>
+   
+    <div class="form" >
+        <form action="">
+        <fieldset> <legend style="color: bisque; background-color:rgb(75, 16, 52) ;"  >REGISTRATION FORM</legend><br>
+<label for="fname">FIRST NAME</label><input type="text" name="FIRST NAME" id="FIRST NAME" required >
+<br>
+<label for="lname">LAST NAME</label><input type="text" name="LAST NAME" id="LAST NAME" required >
+<br>
+    <label>DATE OF BIRTH</label><input type="date" name="DATE" id="DATE" required>
+    <br>
+      <label for="text">EMAIL ID </label><input type="text" name="EMAIL" id="EMAIL"></label>
+      <br>
+      <label for="text">MOBILE NUMBER </label><input type="text" name="MOBILE NUMBER" id="MOBILE NUMBER" >
+      <br>
+        <label for="GENDER">GENDER</label> Male<input type="radio" name="GENDER" id="GENDER"> Female<input type="radio" name="GENDER" id="GENDER">
+        <br>
+            <label for="ADDRESS">ADDRESS</label><textarea name="address" id="address" cols="50" rows="5"></textarea>
+            <br>
+                <label for="CITY">CITY </label><input type="text" name="CITY" id="CITY" > 
+                <br>
+                    <label for="pincode">PIN CODE </label><input type="text" name="PIN CODE"  id="PIN CODE"> 
+                    <br>
+                        <label for="STATE">STATE </label><input type="text" name="STATE" id="STATE"> 
+                        <br>
+                            <label for="">COUNTRY</label><input type="text" name="COUNTRY" id="COUNTRY" > 
+                            <br>
+                                <label for="radio">HOBBIES </label> Drawing<input type="radio" name="Drawing" id="Drawing"> Singing<input type="radio" name="Singing" id="Singing"> Dancing<input type="radio" name="Dancing" id="Dancing"> Sketching<input type="radio" name="Sketching" id="Sketching"> Drawing<input type="radio" name="Drawing" id="Drawing">
+                                <br>
+
+    <h3>QUALIFICATION</h3> 
+    <table > 
+        <tr> 
+         <th >S.No</th>
+        <th>Examination</th>
+        <th>Board</th>
+        <th>Percentage</th>
+        <th>Year of Passing</th>
+        </tr>  
+        <tr>
+         <th>Class X</th>
+            <th><input type="text"></th>
+            <th><input type="text" name="" id=""></th>
+            <th><input type="text"></th>
+            <th><input type="text" name="" id=""></th>
+        </tr>
+        <tr>
+        <th>Class XII</th>
+            <th><input type="text"></th>
+            <th><input type="text"></th>
+            <th><input type="text"></th>
+            <th><input type="text"></th>
+        </tr>
+        <tr>
+        <th>Graduation</th>
+            <th><input type="text"></th>
+            <th><input type="text"></th>
+            <th><input type="text"></th>
+            <th><input type="text"></th>
+        </tr>
+    </table>
+    <br>
+<h3>COURSES APPLIED FOR</h3> BCA <input type="checkbox" name="COURSES" id="COURSES" >  B.Com <input type="checkbox" name="COURSES" id="COURSES"> B.A<input type="checkbox" name="COURSES" id="COURSES">
+<br>
+<h3>PAYMENT</h3>
+<label for="Payment"> Card Type:</label>
+<select name="card_type" id="card_type">
+<option value="">---Select a Card Type---</option>
+<option value="visa">Visa</option>
+<option value="mastercard">Mastercard</option>
+<option value="rupay">Rupay</option>
+</select>
+<br>
+<center>
+<input type="submit" value="Submit" id="Submit">
+<input type="Reset" value="Reset"  id="Reset">
+</center>
+</fieldset>
+</form>
+</body>
+</html>

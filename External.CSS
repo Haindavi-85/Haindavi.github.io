@@ -1,0 +1,29 @@
+fieldset{
+    background-color: rgb(224, 230, 150);
+    width: 30cm;
+}
+
+div{
+    background-color: rgb(55, 55, 100);
+    color: beige;
+}
+p{
+    background-color: rgb(62, 168, 230);
+}
+#para1{
+    background-color: rgb(89, 118, 145);
+}
+#para2{
+    background-color: rgb(28, 68, 70);
+}
+#para3{
+    background-color: rgb(34, 104, 89);
+}
+h1{
+    background-color: rgb(201, 49, 138); 
+    color: bisque;
+ }
+h3{
+  text-decoration: underline;
+  color: rgb(63, 63, 12);
+}

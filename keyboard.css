@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 30px;
+    font-family: Cambria;
+}
+.main .row{
+    height: 80px;
+}
+.main .row .logo{
+float: left;
+font-size: x-large;
+font-family:'Trebuchet MS';
+}
+.main .row .list{
+    float: right;
+}
+.main .list ul li{
+    display: inline;
+    margin: 20px;
+
+}
+.main .list1, .list2{
+    width: 30%;
+    margin: 20px;
+}
+.main .list1 ul li{
+    border-bottom: 1px solid rgb(192, 183, 183);
+    text-decoration: underline;
+    margin: 10px;
+}
+.main .list2 ul li{
+    border-bottom: 1px solid rgb(192, 183, 183);
+    text-decoration: underline;
+    margin: 10px;
+}
+.main .para{
+    width: 60%;
+    text-align: justify;
+    margin: 20px;
+}
+.main .para input{
+    background-color: black;
+    color: bisque;
+    margin: 20px;
+    height: 30px;
+    border: none;
+    width:80px ;
+}
+.main .para{
+    border-bottom: 1px solid gray;
+    line-height: 1.5;
+}
+.main .list1, .list2{
+    line-height: 1.5;
+}
+.main ul{
+    list-style:none;
+}
+.row1 li::before{
+    content: '➧';
+}
+.row2 li::before{
+    content: '➧';
+}
+.row1 .container .list1, .para{
+    float: left;
+}
+.row2 .list2, .para{
+    float: left;
+}
+.row3 .footer{
+    background-color: black;
+    height: 90px;
+}
+.row3 .footer .copyright p{
+    color: rgb(145, 138, 129);
+    text-align: center;
+}
+.row3 .copyright p{
+    position: relative;
+    top: 28px;
+}
+.clear{
+    clear: both;
+}

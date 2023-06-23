@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(Image2.webp);
+}
+.main .logo h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    color: azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .set h1{
+        text-align: center;
+        color: black;  
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+.main .logo{
+    background: rgb(204, 78, 40);
+    color: bisque;
+    text-align: center;
+    height: 150px;
+}
+.set{
+    position: absolute;
+    top:50% ;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: rgb(53, 100, 201);
+    border-radius: 10px;
+opacity: 0.8;
+}
+form{
+    padding: 0 40px;
+}
+.txt_field{
+position: relative;
+margin: 30px 0;
+}
+.txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 30px;
+}
+input[type="submit"]
+{
+    width: 25%;
+    height: 30px;
+    border: 1px ;
+    background-color:rgb(194, 65, 32) ;
+    cursor: pointer;
+    outline: none;
+    color: bisque;
+    margin-bottom: 10px;
+}

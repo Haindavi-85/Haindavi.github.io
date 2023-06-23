@@ -1,0 +1,47 @@
+div.form{
+    background: linear-gradient(45deg, rgb(33, 184, 189), rgb(173, 147, 147), rgb(18, 66, 221)  );
+    width: 30cm;
+    padding: 10px 20px;
+    }
+    label{
+        width: 140px;
+        display: inline-block;
+        margin: 0.2cm;
+        font-size: 16;
+        font-weight: bold;
+    }
+    input{
+        padding: 4px;
+        margin: 5px;
+        font-size: 14px;
+        border-radius: 10px;
+        border: 1px solid #a0307b ;
+    }
+    
+    h3{
+        text-align: left;
+        text-decoration: underline;
+        color: rgb(75, 16, 52);
+    }
+    input#Submit{
+    margin-top: 7px;
+    font-weight: bold;
+    padding: 4px;
+    color: bisque;
+    background-color: rgb(75, 16, 52);
+    }
+    input#Reset{
+        margin-top: 7px;
+        font-weight: bold;
+        color: bisque;
+    background-color: rgb(75, 16, 52)
+        }
+        input#Submit:hover{
+            background-color: rgb(74, 202, 69);
+            color: bisque;
+        }
+    input#Reset:hover{
+        background-color: rgb(74, 202, 69);
+        color: bisque;
+    }
+    

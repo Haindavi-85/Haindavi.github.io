@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+    ul{
+        list-style: none;
+    }
+
+    li{
+        margin: 5px;
+    }
+   li a{
+        color: green;
+    }
+    #input-btn{
+        background-color: green;
+        color: aliceblue;
+        height: 40px;
+        width: 120px;
+    }
+    #input-el{
+        width: 150px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .content{
+        text-align: center;
+        margin: 200px;
+    }

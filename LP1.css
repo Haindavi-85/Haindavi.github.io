@@ -1,0 +1,98 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: linear-gradient(45deg, rgb(5, 26, 58), rgb(177, 124, 144), rgb(28, 112, 168));
+}
+.main .row{
+    background-color:crimson;
+    height: 150px;
+    text-align: center;
+    border-bottom: 1px solid bisque;
+}
+.main .row .logo{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: bisque;
+} 
+.main .row .list ul li{
+    display: inline;
+    margin: 20px;
+    color: bisque;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main .search input{
+    float: right;
+   margin-right: 20px;
+   height: 30px;
+   width: 200px;
+   border-radius: 20px;
+   border: none;
+}
+.main .search img{
+    position: relative;
+    float: right;
+    left: 190px;
+    margin-top: 5px;
+}
+.main .para1 .para2 .para3 h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:bisque;
+}
+.main .para1, .para2,.para3 p{
+    color: bisque;
+    text-align: justify;
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+.main .images{
+    margin-left: 110px;
+}
+fieldset{
+width: 90%;
+margin: 60px;
+
+}
+.main .para2 p{
+    width: 300px;
+}
+.main .para2 img, p{
+    margin: 10px;
+    float: left;
+}
+.main .images1{
+    margin: 40px;
+    display: inline;
+}
+.main .images1 img{
+    margin: 10px;
+}
+hr{
+    color: white;
+}
+.row1{
+    border-top: 2px solid bisque;
+}
+.row1 h3{
+    text-align: center;
+    background-color:crimson;
+    border-bottom: 2px solid bisque;
+}
+.row1 .container ul li{
+    color: bisque;
+    font-family: Verdana;
+    list-style: none;
+}
+.list1 .line1, .line2, .line3, .line4, .line5
+{
+float: left;
+margin: 30px;
+}
+.clear{
+    clear: both;
+}

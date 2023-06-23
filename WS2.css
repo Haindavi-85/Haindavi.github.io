@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.main .row{
+    height: 70px;
+    background-color: rgb(54, 52, 52);
+}
+.main .row .container{
+    margin-left: 20px;
+}
+.main .logo{
+    color: rgb(184, 174, 174);
+    font-family:'Trebuchet MS';
+    font-size: 30px;
+    float: left;
+}
+.main .search input{
+    width: 130px;
+    height: 20px;
+    padding: 2px;
+    border: none;
+    margin-right: 80px;
+    float: right;
+    margin-top: 10px;
+}
+.main .search img{
+   position: relative;
+   float: right;
+   margin-top: 14px;
+   left: 130px;
+}
+.main .list ul li{
+    color: bisque;
+    display: inline;
+    margin: 100px;
+    font-family: Impact;
+
+}
+.main .list{
+    margin-top: 50px;
+    border-bottom: 1px solid orangered;
+    background-color: rgb(36, 34, 34);
+    height: 30px;
+}
+.main .row1{
+    background-image: url("Images/cs.jpg");
+    height:500px;
+    width: 95%;
+    margin: 50px;
+    font-family:Verdana;
+    font-size:x-large;
+}
+.main .row1 ul li{
+    list-style: none;
+    margin: 10px;
+}
+.main .row1 input{
+    background-color: orangered;
+    height: 35px;
+    width: 90px;
+border: none;
+margin: 15px;
+color: bisque;
+font-family:Verdana;
+font-size:medium;
+}
+.main .row1 .para{
+    color: white;
+    width: 350px;
+    font-size: medium;
+}
+.main .row1 .container{
+    float: right;
+    margin: 70px;
+}
+.main .row2 h2{
+color: bisque;
+}
+.main .row2 .para1, .para2, .para3, .para4{
+    color: bisque;
+    width:13%;
+    float: left;
+    margin: 80px;
+    text-align: justify;
+    line-height: 1.5;
+    font-family:Verdana;
+    font-size: small;
+}
+.row3 .container .img, .p{
+    display: inline;
+    float: left;
+}
+.row3 .container .list2{
+    width: 20%;
+}
+.row3 .container .image{
+    width: 60%;
+}
+.row3 .container .image, .list2 
+{
+    color: bisque;
+    display: inline;
+    float: left;
+    line-height: 1.5;
+    margin: 50px;
+    text-align: justify;
+}
+.clear{
+    clear: both;
+}
